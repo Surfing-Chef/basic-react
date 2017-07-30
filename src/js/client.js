@@ -2,10 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Layout extends React.Component {
+  constructor() {
+    super();
+    this.name = "Wade";
+  }
   render() {
     return (
-      <h1>It Works!</h1>
-    )
+      <h1>It's {this.name}!</h1>
+    );
   }
 }
 
