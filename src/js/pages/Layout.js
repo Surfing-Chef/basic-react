@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
       <div>
         <h1>KillerNews.net</h1>
         {this.props.children}
-        <Link to="archives" class="btn btn-danger">archives</Link>
+        <Link to="archives" activeClassName="test">archives</Link>
         <Link to="settings"><button class="btn btn-success">settings</button></Link>
         <button class="btn btn-danger" onClick={this.navigate.bind(this)}>featured</button>
       </div>
